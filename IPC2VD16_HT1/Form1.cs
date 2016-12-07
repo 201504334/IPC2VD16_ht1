@@ -36,7 +36,13 @@ namespace IPC2VD16_HT1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            a = double.Parse(texta.Text);
+            b = double.Parse(textb.Text);
+            c = double.Parse(textc.Text);
+            res = 0;
+
+            res = Math.Pow(a, 2) + Math.Pow(b, 2) - Math.Pow(c, 3);
+            textres.Text = res.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
