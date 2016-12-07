@@ -1,0 +1,21 @@
+IPC2VD16 Seccion A
+Julio Adrián de León Hernández
+201504334
+HOJA DE TRABAJO 1
+
+1. ¿Qué entiende como "commit"?
+"Commit" guarda y registra todos los cambios que se realizan en 
+cierto repositorio. El "commit" se utiliza para agregar cambios 
+en un repositorio local.
+
+2. ¿Qué entiende como "merge"?
+"Merge" combina o fusiona todos los cambios de las ramas del
+repositorio y las integra en la rama principal. Se utiliza cuando
+se hacen cambios en otras ramas, y estos cambios se quieren probar
+en la rama principal.
+
+3. ¿Cuál es la diferencia entre "Pull" y "Push"?
+Con "Pull" se descargan todos los cambios que se han realizado,
+por otros usuarios, al repositorio local. Con "Push", se suben
+los cambios que se realizan al repositorio local. Estos cambios no
+pueden contener errores.
