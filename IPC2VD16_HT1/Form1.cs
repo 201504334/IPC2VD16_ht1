@@ -70,7 +70,13 @@ a = double.Parse(texta.Text);
 
         private void button4_Click(object sender, EventArgs e)
         {
+a = double.Parse(texta.Text);
+            b = double.Parse(textb.Text);
+            c = double.Parse(textc.Text);
+            res = 0;
 
+            res = Math.Pow(b, 0.5) - Math.Pow(c, 2) + a;
+            textres.Text = res.ToString();
         }
     }
 }
