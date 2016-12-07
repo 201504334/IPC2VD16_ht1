@@ -58,6 +58,13 @@ a = double.Parse(texta.Text);
 
         private void button3_Click(object sender, EventArgs e)
         {
+a = double.Parse(texta.Text);
+            b = double.Parse(textb.Text);
+            c = double.Parse(textc.Text);
+            res = 0;
+
+            res = (a/b) -(b/c);
+            textres.Text = res.ToString();
 
         }
 
