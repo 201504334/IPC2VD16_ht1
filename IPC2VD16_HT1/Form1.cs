@@ -65,6 +65,8 @@ a = double.Parse(texta.Text);
 
             res = (a/b) -(b/c);
             textres.Text = res.ToString();
+			
+			textres.Text = textres.Text + "_201504334";
 
         }
 
